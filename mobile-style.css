@@ -45,9 +45,9 @@
     }
 
     .sound-picker button {
-        width: 75px;
-        height: 75px;
-        padding: 20px;
+        width: 85px;
+        height: 85px;
+        padding: 10%;
     }
 
     .player-container {
