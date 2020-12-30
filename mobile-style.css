@@ -51,7 +51,6 @@
 
     .player-container {
         bottom: 5%;
-        z-index: -2;
         position: relative;
         grid-row: 2/3;
         grid-column: 1/3;
