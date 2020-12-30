@@ -8,10 +8,9 @@
 
     .app {
         position: relative;
-        top: 5%;
         display: grid;
         grid-template-columns: repeat(2, 50%);
-        grid-template-rows: 30% 60%;
+        grid-template-rows: 35% 60%;
     }
 
     .header {
@@ -45,12 +44,14 @@
     }
 
     .sound-picker button {
-        width: 85px;
-        height: 85px;
-        padding: 10%;
+        width: 90px;
+        height: 90px;
+        padding:12%;
     }
 
     .player-container {
+        bottom: 5%;
+        z-index: -2;
         position: relative;
         grid-row: 2/3;
         grid-column: 1/3;
